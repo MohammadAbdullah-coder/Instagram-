@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styling.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/121cb88717.js" crossorigin="anonymous"></script>
+    <title>Instagram</title>
+</head>
+<body>
+    
+    <div class="bg-container" id="bgContainer">
+        
+        <div class="left-side-menu" id="leftSideMenu">
+            <h1 class="title">Instagram</h1>
+            <div class="option-features">  
+                <div class="menu-option" id="homeSection"> 
+                    <i class="fa-solid fa-house icons"></i>
+                    <h3 class="home" >Home</h3>
+                </div>
+                <div class="menu-option"> 
+                    <i class="fa-solid fa-magnifying-glass icons"></i>
+                    <h3 class="home">Search</h3>
+                </div>
+                <div class="menu-option"> 
+                    <i class="fa-regular fa-compass icons"></i>
+                    <h3 class="home">Explore</h3>
+                </div>
+                <div class="menu-option"> 
+                    <i class="fa-brands fa-instagram icons"></i>
+                    <h3 class="home">Reels</h3>
+                </div>
+                <div class="menu-option"> 
+                    <i class="fa-brands fa-facebook-messenger icons"></i>
+                    <h3 class="home">Messages</h3>
+                </div>
+                <div class="menu-option" id="notification">  
+                    <i class="fa-regular fa-heart icons"></i>
+                    <h3 class="home">Notification</h3>
+                   
+                </div>
+                <div class="menu-option"> 
+                    <i class="fa-regular fa-square-plus icons"></i>
+                    <h3 class="home">Create</h3>
+                </div>
+                <div class="menu-option"id="profileSection"> 
+                    <img src="./New folder/profileImge.jpg" class="profile-main-image">
+                    <h3 class="home" >Profile</h3>
+                    <!-- <a href="#" class="home">Profile</a> -->
+                    
+                </div>
+                <div class="menu-option"> 
+                    <i class="fa-brands fa-threads icons"></i>
+                    <h3 class="home">Threads</h3>
+                </div>
+                <div class="menu-option"> 
+                    <i class="fa-solid fa-bars icons"></i>
+                    <h3 class="home">More</h3>
+                </div>
+            </div>
+        </div>
+       
+
+           
+
+         
+
+
+
+
+         <!--JS Onclick status check-->
+
+
+         <div class="insta-status-container" id="instastatuscontainer">
+            <div class="status1" id="status1">
+                
+                <div class="insta-profile-card" id="instaStatusCard" >
+                    <img src="./New folder/profileImge.jpg" class="profile-imge" id="statusCheck"   alt="imge not found">
+                </div>
+                
+                <div class="insta-profile-card" >
+                    <img src="./New folder/AdilProfile.png" class="profile-imge"   alt="imge not found">
+                </div>
+                <div class="insta-profile-card">
+                    <img src="./New folder/AnkithProfile.png" class="profile-imge"  alt="imge not found">
+                </div>
+                
+                <div class="insta-profile-card">
+                    <img src="./New folder/AjjuProfile.png" class="profile-imge"  alt="imge not found">
+                </div>
+                <div class="insta-profile-card">
+                    <img src="./New folder/PhaniProfile.png" class="profile-imge"  alt="imge not found">
+                </div>
+                <div class="insta-profile-card">
+                    <img src="./New folder/saqibProfile.png" class="profile-imge"  alt="imge not found">
+                </div>
+                <div class="insta-profile-card">
+                    <img src="./New folder/MaheshProfile.png" class="profile-imge"  alt="imge not found">
+                </div>
+                
+                <div class="insta-profile-card">
+                    <img src="./New folder/RajeshProfile.png" class="profile-imge"  alt="imge not found">
+                </div>
+                
+            </div>
+             <!--When the user click the status its display the video-->
+
+            
+            <!------------------------------------------------------------------->
+
+
+            <!--Instagram-Feed-->
+            <div class="insta-reel" id="instaFeed">
+                <div class="Insta-reel-update">
+                    <img src="./New folder/AdilProfile.png" class="profile-imge" alt="image Not Found">
+                    <h3 class="reel-profilename">rx_freaker</h3>
+                    <h3 class="reel-update-hour">.1hr</h3>
+                    <h3 class="insta-more-option">...</h3>
+                </div>
+                <div class="reel-profile-card">
+                    <img src="./New folder/adil-reel-profile.png" class="reel-imge shadow">
+                    <div class="like-comment-share-icons">
+                        <i class="fa-regular fa-heart reel-icons"></i>
+                        <i class="fa-regular fa-comment reel-icons"></i>
+                        <img src="./New Folder/send.png" class="share-icon">
+                        <img src="./New Folder/bookmark.png" class="save-icon">
+                        
+                    </div>
+                    <div class="mt-0">
+                        <p class="feed-likes">1.1M Likes</p>
+                        <p class="feed-update mt-0">Vizag - The City Of Destiny</p>
+                        <p class="feed-comments">View all comments</p>
+                        <p class="feed-add-comments">Add a comment</p>
+                    </div>
+                </div>
+    
+                <!------------------------------------------------------------------------------->
+                <div class="Insta-reel-update">
+                    <img src="./New folder/profileImge.jpg" class="profile-imge" alt="image Not Found">
+                    <h3 class="reel-profilename">mohammad_a_b_d_u_l_l_a</h3>
+                    <h3 class="reel-update-hour">.5min</h3>
+                    <h3 class="insta-more-option">...</h3>
+                </div>
+                <div class="reel-profile-card">
+                    <img src="./New folder/abbuFeed.png" class="reel-imge shadow">
+                    <div class="like-comment-share-icons">
+                        <i class="fa-regular fa-heart reel-icons"></i>
+                        <i class="fa-regular fa-comment reel-icons"></i>
+                        <img src="./New Folder/send.png" class="share-icon">
+                        <img src="./New Folder/bookmark.png" class="save-icon">
+                        
+                    </div>
+                    <div class="mt-0">
+                        <p class="feed-likes">50k Likes</p>
+                        <p class="feed-update mt-0">Vizag - The City Of Destiny</p>
+                        <p class="feed-comments">View all comments</p>
+                        <p class="feed-add-comments">Add a comment</p>
+                    </div>
+                </div>
+                <!------------------------------------------------------------------------------->
+                <div class="Insta-reel-update">
+                    <img src="./New folder/AnkithProfile.png" class="profile-imge" alt="image Not Found">
+                    <h3 class="reel-profilename">ankith_bommisetty</h3>
+                    <h3 class="reel-update-hour">.2hr</h3>
+                    <h3 class="insta-more-option">...</h3>
+                </div>
+                <div class="reel-profile-card">
+                    <img src="./New folder/ankithfeed.png" class="reel-imge shadow">
+                    <div class="like-comment-share-icons">
+                        <i class="fa-regular fa-heart reel-icons"></i>
+                        <i class="fa-regular fa-comment reel-icons"></i>
+                        <img src="./New Folder/send.png" class="share-icon">
+                        <img src="./New Folder/bookmark.png" class="save-icon">
+                        
+                    </div>
+                    <div class="mt-0">
+                        <p class="feed-likes">1M Likes</p>
+                        <p class="feed-update mt-0">Brooklyn Bridge</p>
+                        <p class="feed-comments">View all comments</p>
+                        <p class="feed-add-comments">Add a comment</p>
+                    </div>
+                </div>
+                <!------------------------------------------------------------------------------->
+                <div class="Insta-reel-update">
+                    <img src="./New folder/ChandanProfile.png" class="profile-imge" alt="image Not Found">
+                    <h3 class="reel-profilename">chandan_sahu_____</h3>
+                    <h3 class="reel-update-hour">.10Min</h3>
+                    <h3 class="insta-more-option">...</h3>
+                </div>
+                <div class="reel-profile-card">
+                    <img src="./New folder/ChandanFeed.png" class="reel-imge shadow">
+                    <div class="like-comment-share-icons">
+                        <i class="fa-regular fa-heart reel-icons"></i>
+                        <i class="fa-regular fa-comment reel-icons"></i>
+                        <img src="./New Folder/send.png" class="share-icon">
+                        <img src="./New Folder/bookmark.png" class="save-icon">
+                        
+                    </div>
+                    <div class="mt-0">
+                        <p class="feed-likes">10.5k Likes</p>
+                        <p class="feed-update mt-0">Palm Exotica Boutique Resort & Spa</p>
+                        <p class="feed-comments">View all comments</p>
+                        <p class="feed-add-comments">Add a comment</p>
+                    </div>
+                </div>
+                 <!------------------------------------------------------------------------------->
+                <div class="Insta-reel-update">
+                    <img src="./New folder/ZulfiProfile.png" class="profile-imge" alt="image Not Found">
+                    <h3 class="reel-profilename">zulfi_escobar</h3>
+                    <h3 class="reel-update-hour">.10hr</h3>
+                    <h3 class="insta-more-option">...</h3>
+                </div>
+                <div class="reel-profile-card">
+                    <img src="./New folder/ZUlfiFeed.png" class="reel-imge shadow">
+                    <div class="like-comment-share-icons">
+                        <i class="fa-regular fa-heart reel-icons"></i>
+                        <i class="fa-regular fa-comment reel-icons"></i>
+                        <img src="./New Folder/send.png" class="share-icon">
+                        <img src="./New Folder/bookmark.png" class="save-icon">
+                        
+                    </div>
+                    <div class="mt-0">
+                        <p class="feed-likes">1.5M Likes</p>
+                        <p class="feed-update mt-0">Vizag - The City Of Destiny</p>
+                        <p class="feed-comments">View all comments</p>
+                        <p class="feed-add-comments">Add a comment</p>
+                    </div>
+                </div>
+                <!------------------------------------------------------------------------------->
+                <div class="Insta-reel-update">
+                    <img src="./New folder/AjjuProfile.png" class="profile-imge" alt="image Not Found">
+                    <h3 class="reel-profilename">karim_ajju</h3>
+                    <h3 class="reel-update-hour">.1hr</h3>
+                    <h3 class="insta-more-option">...</h3>
+                </div>
+                <div class="reel-profile-card">
+                    <!-- <img src="adil-reel-profile.png" class="reel-imge shadow"> -->
+                     <video width="400px" height="400px" controls>
+                        <source src="./New folder/install-video.mp4">
+                     </video>
+                    <div class="like-comment-share-icons">
+                        <i class="fa-regular fa-heart reel-icons"></i>
+                        <i class="fa-regular fa-comment reel-icons"></i>
+                        <img src="./New Folder/send.png" class="share-icon">
+                        <img src="./New Folder/bookmark.png" class="save-icon">
+                        
+                    </div>
+                    <div class="mt-0">
+                        <p class="feed-likes">1.1M Likes</p>
+                        <p class="feed-update mt-0">Vizag - The City Of Destiny</p>
+                        <p class="feed-comments">View all comments</p>
+                        <p class="feed-add-comments">Add a comment</p>
+                    </div>
+                </div>
+    
+            </div>
+
+            <!--User Profile section -->
+            <div id="userProfileDetails" class="userProfileDetails">
+                <div class="userBio" id="userBio">
+                    <!-- <img src="./New folder/adil-reel-profile.png"  class="main-profile">
+                    <div>
+                        <div class ="alignitem">
+                            <h1> hello</h1>
+                            <button class="btn1"></button>
+                            <button class="btn2"></button>
+                            
+                        </div>
+                        <div class="d-flex  abc">
+                            <p>h<p>
+                            <p>p<p>
+                            <p>k<p>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="pervious-status" id="perviousStatus">
+                    <!-- <div>
+                        <div>
+                        </div>
+
+                    </div> -->
+                </div>
+                <hr id="hrline">
+                <div id="postReelSavedTag">
+                </div>
+                <div id="postPhotos"></div>
+                
+            </div><!-- last line of UserProfile section -->
+
+
+          
+
+         </div><!--last line of insta-status-container -->
+
+
+
+         <!-- Profile and Suggested Sessions -->
+  
+  <div class="suggested-session" id="suggestedSection">
+    <div class="profile-section">
+        <img src="./New folder/profileImge.jpg" class="profile-imge">
+        <div>
+            <h4 class="profilename">mohammad_a_b_d_u_l_l_a</h4>
+            <p class="profile-user-name">Mohammadabdulla</p>
+        </div>
+        <p class="profile-switch">Switch</p>
+    </div>
+    <div class="profile-sugested-for-all">
+        <h4 class="suggested-name">Suggested for you</h4>
+        <p class="sell-all">See All</p>
+     </div>
+
+        <div class="suggested-profile-section">
+            <img src="./New folder/ChandanProfile.png" class="suggested-profile-imge">
+            <div class="align">
+                <h1 class="profilename">chandan_sahu_____</h1>
+                <p class="profile-user-name1">Follwed by veeresh_ntr</p>
+            </div>
+            <p class="sell-all-1">Follow</p>
+        </div>
+        <div class="suggested-profile-section">
+            <img src="./New folder/PrasadProfile.png" class="suggested-profile-imge">
+            <div class="align">
+                <h1 class="profilename">prasad_kandipilli</h1>
+                <p class="profile-user-name1">Follwed by ankith_bommisetty</p>
+            </div>
+            <p class="sell-all-1">Follow</p>
+        </div>
+        <div class="suggested-profile-section">
+            <img src="./New folder/LokiProfile.png" class="suggested-profile-imge">
+            <div class="align">
+                <h1 class="profilename">i_am_loki_19</h1>
+                <p class="profile-user-name1">Follwed by prasad_kandipilli</p>
+            </div>
+            <p class="sell-all-1">Follow</p>
+        </div>
+        <div class="suggested-profile-section">
+            <img src="./New folder/Dippaprofile.png" class="suggested-profile-imge">
+            <div class="align">
+                <h1 class="profilename">_a_d_i_l______</h1>
+                <p class="profile-user-name1">Follwed by rx_freaker</p>
+            </div>
+            <p class="sell-all-1">Follow</p>
+        </div>
+        <!-- Profile and Suggested Footer Sessions -->
+         <div class="main-footer-section">
+           <a href="#" class="fotter-section">About</a>
+           <a href="#" class="fotter-section">.Help</a>
+           <a href="#" class="fotter-section">.Press</a>
+           <a href="#" class="fotter-section">.API</a>
+           <a href="#" class="fotter-section">.Jobs</a>
+           <a href="#" class="fotter-section">.Privacy</a>
+           <a href="#" class="fotter-section">.Location</a>
+           <a href="#" class="fotter-section">.Language</a>
+           <a href="#" class="fotter-section">.MetaVerified</a>
+        </div>
+
+        <div class="footer-copyright-section">
+            <i class="fa-regular fa-copyright copyright-icons"></i>
+            <p class="copy-right-verfied"> 2025 INSTGRAM FROM META</p>
+        </div>
+     
+    </div>
+
+        </div><!--last line of bg-container-->
+
+        
+        
+
+        
+
+
+    
+
+
+
+    <script src="insta.js"></script>
+</body>
+<script type='text/javascript' src='https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js'></script>
+</html>
+
+
+
+
+
+
+
